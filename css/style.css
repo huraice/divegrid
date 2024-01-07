@@ -72,7 +72,7 @@ body {
 .hero_area {
   height: 100vh;
   background-color: #b5caee;
-  background-image: url(../images/hero-bg.jpg);
+  background-image: url(../images/hero-bg.webp);
   background-size: cover;
 }
 
@@ -598,6 +598,9 @@ a:focus {
   background-color: #232323;
   color: #ffffff;
   padding: 90px 0 45px 0;
+}
+.info_section a {
+  color: #ffffff;
 }
 
 .info_section h5 {
