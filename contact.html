@@ -19,6 +19,7 @@
   <link rel="icon" href="images/divgridD.ico" type="image/x-icon" />
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
 
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 
@@ -85,7 +86,7 @@
   <section class="contact_section layout_padding">
     <div class="container">
 
-      <div class="heading_container">
+      <!-- <div class="heading_container">
         <h2>
           Request A Call Back
         </h2>
@@ -118,10 +119,10 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="map_img-box">
-        <img src="images/map-img.png" alt="">
-      </div>
+      </div> -->
+      <div id="map"></div>
+      <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+      <script src="script.js"></script>
     </div>
   </section>
 

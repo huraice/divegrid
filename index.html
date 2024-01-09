@@ -8,6 +8,8 @@
   <!-- Mobile Metas -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <!-- Site Metas -->
+
+  <link rel="icon" href="images/divgridD.ico" type="image/x-icon" />
   <meta name="keywords" content="divegrid" />
   <meta name="description" content="Official Website of Divegrid Private Limited Company" />
   <meta name="author" content="huraice.me" />
@@ -16,8 +18,10 @@
 
   <!-- slider stylesheet -->
   <!-- slider stylesheet -->
-  <link rel="icon" href="images/divgridD.ico" type="image/x-icon" />
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
@@ -41,7 +45,8 @@
               <img src="images/GRIDREDFINAL.png" alt="">
             </span>
           </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
 
@@ -101,7 +106,7 @@
                         Divegrid
                       </h1>
                       <p>
-                        
+
                         A startup based company for identifying solutions for future
                       </p>
                       <div class="">
@@ -181,7 +186,7 @@
           What we do
         </h2>
         <p>
-          Divegrid 
+          Divegrid
         </p>
       </div>
       <div class="do_container">
@@ -259,7 +264,9 @@
               </h2>
             </div>
             <p>
-              At DiveGrid, we are a forward-thinking company dedicated to provide job and research and development on latest Technology. Our vision is to identify newes. Founded on the principles of innovation, integrity, and Sustainability, DiveGrid is at the forefront of Startups.
+              At DiveGrid, we are a forward-thinking company dedicated to provide job and research and development on
+              latest Technology. Our vision is to identify newes. Founded on the principles of innovation, integrity,
+              and Sustainability, DiveGrid is at the forefront of Startups.
             </p>
             <!-- <div>
               <a href="">
@@ -439,12 +446,12 @@
   <section class="contact_section layout_padding">
     <div class="container">
 
-      <div class="heading_container">
+      <!-- <div class="heading_container">
         <h2>
           Request A Call Back
         </h2>
-      </div>
-      <div class="">
+      </div> -->
+      <!-- <div class="">
         <div class="">
           <div class="row">
             <div class="col-md-9 mx-auto">
@@ -472,10 +479,10 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="map_img-box">
-        <img src="images/map-img.png" alt="">
-      </div>
+      </div> -->
+      <div id="map"></div>
+      <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+      <script src="script.js"></script>
     </div>
   </section>
 
@@ -507,13 +514,14 @@
             <div>
               <div class="img-box">
                 <img src="images/telephone-white.png" width="12px" alt="">
-              </div><p>
-              <a href="tel:+917306082321">+917306082321</a>,
-              <a href="tel:+916282687001"> +916282687001</a>,
-              
-              <a href="tel:+919447745440"> +919447745440</a>
-            </p>
-             
+              </div>
+              <p>
+                <a href="tel:+917306082321">+917306082321</a>,
+                <a href="tel:+916282687001"> +916282687001</a>,
+
+                <a href="tel:+919447745440"> +919447745440</a>
+              </p>
+
             </div>
             <div>
               <div class="img-box">
@@ -521,7 +529,7 @@
               </div>
               <p>
                 <a href="mailto:divegridinfo@gmail.com">divegridinfo@gmail.com</a>
-                
+
               </p>
             </div>
           </div>
@@ -585,7 +593,7 @@
         </div> -->
         <div class="col-md-3">
           <div class="info_form ">
-            
+
             <!-- <h5>
               Newsletter
             </h5>

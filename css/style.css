@@ -592,7 +592,10 @@ a:focus {
 .contact_section .map_img-box img {
   width: 100%;
 }
-
+#map {
+  width: 100%;
+      height: 300px;
+  }
 /* end contact section */
 .info_section {
   background-color: #232323;
