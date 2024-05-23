@@ -602,6 +602,13 @@ a:focus {
   color: #ffffff;
   padding: 90px 0 45px 0;
 }
+<<<<<<< HEAD
+=======
+.info_section .col-md-3{
+  margin: auto;
+  
+}
+>>>>>>> 799881f (update23524345)
 .info_section a {
   color: #ffffff;
 }
