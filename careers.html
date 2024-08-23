@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<!--
+	 by TEMPLATE STOCK
+	templatestock.co @templatestock
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+
+<html lang="en">
+
+<head>
+   <!-- Meta Data -->
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <!-- Mobile Metas -->
+   <!-- Site Metas -->
+
+   <link rel="icon" href="img/assets/divgridD.ico" type="image/x-icon" />
+   <meta name="keywords" content="divegrid" />
+   <meta name="description" content="Official Website of Divegrid Private Limited Company" />
+   <meta name="author" content="huraice.me" />
+   <title>DIVEGRID.IN</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+   <!-- Stlylesheet -->
+   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css" />
+   <link rel="stylesheet" href="css/font-awesome/css/font-awesome.css" type="text/css" />
+   <link rel="stylesheet" href="css/style.css" type="text/css" />
+   <link rel="stylesheet" href="css/no-ui-slider/jquery.nouislider.css" type="text/css" />
+
+   <!-- Skin Color -->
+   <link rel="stylesheet" href="css/colors/green.css" id="color-skins" />
+</head>
+
+<body>
+
+   <!-- Start Preloader -->
+   <div id="loader">
+      <div class="spinner">
+         <div class="cube cube0"></div>
+         <div class="cube cube1"></div>
+         <div class="cube cube2"></div>
+         <div class="cube cube3"></div>
+         <div class="cube cube4"></div>
+         <div class="cube cube5"></div>
+         <div class="cube cube6"></div>
+         <div class="cube cube7"></div>
+         <div class="cube cube8"></div>
+         <div class="cube cube9"></div>
+         <div class="cube cube10"></div>
+         <div class="cube cube11"></div>
+         <div class="cube cube12"></div>
+         <div class="cube cube13"></div>
+         <div class="cube cube14"></div>
+         <div class="cube cube15"></div>
+      </div>
+   </div>
+   <!-- End Preloader -->
+
+   <!-- Start Header -->
+   <header>
+      <nav class="navbar navbar-default navbar-alt" role="navigation">
+         <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+               </button>
+               <a class="navbar-brand to-top" rel="home" href="#">
+                  <img src="img/assets/LogoCareer.png" alt="Divegrid" class="logo-big">
+                  <img src="img/assets/LogoCareer.png" alt="Divegrid" class="logo-small">
+               </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="main-nav">
+               <ul class="nav navbar-nav  navbar-right">
+                  <li class="to-section">
+                     <a href="index.html">
+                        Home
+                     </a>
+                  </li>
+                  <li class="to-section">
+                     <a href="#about">
+                        About Us
+                     </a>
+                  </li>
+                  <li class="to-section">
+                     <a href="careers.html">
+                        Careers
+                     </a>
+                  </li>
+                  <!-- <li class="to-section">
+                  <a href="#portfolio">
+                     Portfolio
+                  </a>
+               </li> -->
+                  <li class="to-section">
+                     <a href="#contact">
+                        Contact
+                     </a>
+                  </li>
+               </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+         </div>
+         <!-- /.container -->
+      </nav>
+   </header>
+   <!-- End Header -->
+   <!-- Start About Section -->
+
+   <section id="careers">
+      <div class="container">
+         <div class="row">
+
+            <div class="col-md-12 text-center wow fadeInUp">
+               <h3 class="section-title">Career Opportunities at Divegrid</h3>
+               <!-- <p class="subheading">We are a small<span class="highlight"> creative team</span>, trying to enrich the lives of others</p> -->
+            </div>
+            <div class="col-md-6 text-left wow fadeInUp">
+               <h3 class="wow fadeInUp">Join Our Innovative Team!</h3>
+               <p class="wow fadeInUp">At Divegrid, we are passionate about creating cutting-edge solutions in the
+                  fields of IT and embedded systems. We offer a dynamic and collaborative work environment where
+                  innovation thrives. Explore the exciting career opportunities we have to offer:</p>
+               <!-- <p class="wow fadeInUp">
+               <button type="button" class="btn btn-primary btn-md">Get in Touch</button>
+            </p> -->
+            </div>
+         </div>
+      </div>
+      </div>
+   </section>
+   <section>
+      <div class="popup-form" id="resumeForm">
+         <h3>Submit Your Resume</h3>
+         <form id="resumeSubmissionForm" onsubmit="submitForm(event)">
+             <input type="text" id="name" name="name" placeholder="Your Name" required>
+             <input type="email" id="email" name="email" placeholder="Your Email" required>
+             <input type="text" id="jobTitle" name="jobTitle" placeholder="Job Title" required>
+             <input type="file" id="resume" name="resume" required>
+             <button type="submit">Submit</button>
+         </form>
+         <button class="close-button" onclick="closeForm()">Close</button>
+         <button class="skip-button" onclick="closeForm()">Skip</button>
+     </div>
+      <div class="container">
+         <div class="row">
+            <h4 style="padding-left:20px ;">Job Openings</h4>
+         </div>
+         <!-- <div class="JobsOpenings">
+            <div class="ImageContainer ad1">
+               <div class="jobadimage"><img src="img/Careers/LabourSupplyhead.jpeg" alt="ad1"></div>
+               <div class="jobDeatils">
+                  <div class="jobtitle-container">
+                     <h5 class="white jobtit" style="float:left  ">Position :&nbsp;</h5>
+                     <h4 class="white jobtit1" style="float: inline-start"> Labour Supply Head</h4>
+                  </div>
+                  <div>
+                     <h5 class="white jobtit" style="float: right;">Last Date : 27/08/2024</h5>
+                  </div>
+               </div>
+            </div>
+            <div class="ImageContainer ad2">
+               <div class="jobadimage"><img src="img/Careers/SkillTrainingHead.jpeg" alt="ad1"></div>
+               <div class="jobDeatils">
+                  <div class="jobtitle-container">
+                     <h5 class="white" style="float:left  ">Position :&nbsp;</h5>
+                     <h4 class="white" style="float: inline-start"> Skill Training Head</h4>
+                  </div>
+                  <div>
+                     <h5 class="white" style="float: right;">Last Date : 27/08/2024</h5>
+                  </div>
+               </div>
+            </div>
+            
+    
+         </div> -->
+         <div class="Jobs">
+            <div class="JObContainer">
+               <div class="imageconatiner2">
+                  <div class="jobadimage"><img src="img/Careers/LabourSupplyhead.jpeg" alt="ad1"></div>
+                  <div class="jobDeatils">
+                     <div class="jobtitle-container">
+                        <h5 class="white jobtit" style="float:left  ">Position :&nbsp;</h5>
+                        <h4 class="white jobtit1" style="float: inline-start"> Labour Supply Head</h4>
+                     </div>
+                     <div>
+                        <h5 class="white jobtit" style="float: right;">Last Date : 27/08/2024</h5>
+                     </div>
+                     <button class="apply-button" onclick="openForm('Labour Supply Head')">Apply</button>
+                  </div>
+               </div>
+               <div class="JObdetailsContainer2"></div>
+            </div>
+            <div class="JObContainer">
+               <div class="imageconatiner2">
+                  <div class="jobadimage"><img src="img/Careers/SkillTrainingHead.jpeg" alt="ad1"></div>
+                  <div class="jobDeatils">
+                     <div class="jobtitle-container">
+                        <h5 class="white jobtit" style="float:left  ">Position :&nbsp;</h5>
+                        <h4 class="white jobtit1" id="jobtit1" style="float: inline-start"> Skill Training Head</h4>
+                     </div>
+                     <div>
+                        <h5 class="white jobtit" style="float: right;">Last Date : 27/08/2024</h5>
+                     </div>
+                     <button class="apply-button" onclick="openForm('Skill Training Head')">Apply</button>
+
+    
+                  </div>
+               </div>
+               <div class="JObdetailsContainer2"></div>
+            </div>
+            
+         </div>
+        
+         
+      </div>
+      
+      <!-- <hr style="height: 1px; width: 90%; color: black; z-index: 10; display: block;
+      margin-top:2em;
+      "> -->
+   </section>
+   <!-- End About Section -->
+   <!-- Start Home Revolution Slider Parallax Section -->
+   <!-- Start About Section -->
+   <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h3 class="section-title wow fadeInUp">Contact us</h3>
+            <p class="subheading wow fadeInUp">Let's Work Together.</p>
+          </div>
+          <div class="col-md-7 wow fadeInUp">
+            <div id="message"></div>
+            <!-- Contact Form will be functional only on your server. Upload to your server when testing. -->
+            <form
+              id="contact-form"
+              method="POST"
+              action="https://formspree.io/f/xjvnnpdp"
+            >
+              <fieldset>
+                <input name="name" type="text" id="name" placeholder="Name" />
+                <input
+                  name="email"
+                  type="text"
+                  id="email"
+                  placeholder="Email"
+                />
+              </fieldset>
+              <fieldset>
+                <textarea
+                  name="comments"
+                  cols="40"
+                  rows="3"
+                  id="comments"
+                  placeholder="Message"
+                ></textarea>
+              </fieldset>
+              <input
+                type="submit"
+                class="submit"
+                id="submit"
+                value="Send Message"
+              />
+            </form>
+          </div>
+          <div class="col-md-5 wow fadeInLeft">
+            <h4>Trivandrum</h4>
+            <address>
+              Divegrid, Opposite RBI Quarters<br />TC 25/2888 - 133
+              Nanthancode, Kowdiar PO<br />Thiruvananthapuram, Kerala, India
+              <br />
+              PIN 695003
+            </address>
+
+            <h4>Contact Us</h4>
+            <address>
+              <abbr title="Phone">
+                <strong> Phone </strong>
+              </abbr>
+              :<a href="tel:+916282687001"> +916282687001</a>,
+              <a href="tel:+917306082321">+917306082321</a>,
+
+              <a href="tel:+919447745440"> +919447745440</a> <br />
+
+              <abbr title="Email">
+                <strong>Email </strong>
+              </abbr>
+              : <a href="mailto:enquiry@divegrid.in">enquiry@divegrid.in</a>
+            </address>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact Form Section -->
+
+    <!-- Start Google Map Section -->
+
+    <!-- End Google Map Section -->
+
+    <!-- Start Footer 1 -->
+    <footer id="footer">
+      <!-- End Footer Widgets -->
+
+      <div class="footer-copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h3 class="section-title wow fadeInUp">DIVEGRID</h3>
+              <p class="wow fadeInUp">
+                All Rights Reserved. Copyright © 2023
+                <a href="https://divegrid.in/" target="_blank"
+                  >Divegrid PVT LTD</a
+                >
+              </p>
+              <!-- <ul class="social-icons subheading">
+                   <li>
+                      <a href="#">
+                         <i class="icon ion-social-twitter"></i>
+                      </a>
+                   </li>
+                   <li>
+                      <a href="#">
+                         <i class="icon ion-social-facebook"></i>
+                      </a>
+                   </li>
+                   <li>
+                      <a href="#">
+                         <i class="icon ion-social-googleplus"></i>
+                      </a>
+                   </li>
+                   <li>
+                      <a href="#">
+                         <i class="icon ion-social-instagram-outline"></i>
+                      </a>
+                   </li>
+                   <li>
+                      <a href="#">
+                         <i class="icon ion-social-pinterest"></i>
+                      </a>
+                   </li>
+                   <li>
+                      <a href="#">
+                         <i class="icon ion-social-skype"></i>
+                      </a>
+                   </li>
+                   <li>
+                      <a href="#">
+                         <i class="icon ion-social-linkedin"></i>
+                      </a>
+                   </li>
+                   <li>
+                      <a href="#">
+                         <i class="icon ion-social-dropbox"></i>
+                      </a>
+                   </li>
+                   <li>
+                      <a href="#">
+                         <i class="icon ion-social-vimeo"></i>
+                      </a>
+                   </li>
+                   <li>
+                      <a href="#">
+                         <i class="icon ion-social-youtube"></i>
+                      </a>
+                   </li>
+                </ul> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Footer Copyright -->
+    </footer>
+    <!-- End Footer 1 -->
+
+    <!-- Start Back To Top -->
+    <a id="back-to-top">
+      <i class="icon ion-chevron-up"></i>
+    </a>
+    <!-- End Back To Top -->
+  </div>
+
+   <!-- End Site Wrapper -->
+   <!-- jQuery -->
+   <script type="module" src="js/firebase.js"></script>
+   <script type="text/javascript" src="js/plugins/jquery.min.js"></script>
+   <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+   <script type="text/javascript" src="js/plugins/moderniz.min.js"></script>
+   <script type="text/javascript" src="js/plugins/smoothscroll.min.js"></script>
+   <script type="text/javascript" src="js/no-ui-slider/jquery.nouislider.all.min.js"></script>
+   <script type="text/javascript" src="js/plugins/revslider.min.js"></script>
+   <script type="text/javascript" src="js/plugins/waypoints.min.js"></script>
+   <script type="text/javascript" src="js/plugins/parallax.min.js"></script>
+   <script type="text/javascript" src="js/plugins/easign1.3.min.js"></script>
+   <script type="text/javascript" src="js/plugins/cubeportfolio.min.js"></script>
+   <script type="text/javascript" src="js/plugins/owlcarousel.min.js"></script>
+   <script type="text/javascript" src="js/plugins/tweetie.min.js"></script>
+   <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js"></script>
+   <script type="text/javascript" src="js/plugins/gmap3.min.js"></script>
+   <script type="text/javascript" src="js/plugins/wow.min.js"></script>
+   <script type="text/javascript" src="js/plugins/counterup.min.js"></script>
+   <script type="text/javascript" src="js/scripts.js"></script>
+</body>
+
+</html>
